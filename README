@@ -28,6 +28,7 @@ DO NOT TOUCH the value "Ilość kursów". This stands for "number of exchange ra
 Btw2. You are not obligated to set ALL of the exchange rates, only required ones. The program ignores empty cells in the template.
 4. After you done editing the template, click "Ustaw kursy walut" (Set exchange rates) and wait for the process to end.
 5. IF YOU ADDED/REMOVED A BUSINESS OR A FOREIGN CURRENCY, CLICK THE BUTTON "Wyczyść pamięć podręczną" (Clear cache) BEFORE PERFORMING ANY OTHER OPERATIONS.
+6. For the maintaining purpose, there is a logging mechanism. By defalt, the log is saved to `./log/` directory to file `operational.log`. The log is quite descriptive, so if you've got into some trouble, try reading.
 
 # Requirements
 
