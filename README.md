@@ -25,7 +25,7 @@ This action downloads the foreign businesses and information about currencies th
 
 This action opens generated `.csv` template and if open/libre/another office suite application for editing spreadsheets is set to be default system-wide, it will be used. 
 
-A bit on the template: "Data" is for *date*, it's the date for the day these exchange rates were applicable. Set it in a ISO format, e. g. YYYY-MM-DD.
+A bit on the template: "Data" is for *date*, it's the date for the day these exchange rates were applicable. Set it in a ISO format, e. g. `YYYY-MM-DD`.
 
 "Waluta_bazowa" is for *base currency*. Under that line are located the currencies for businesses, which have this currency set as a base one. For example, you see base currency `USD`. Under that line, you see `EUR`. The cell  in the next to `EUR` column represents `EUR/USD` exchange rate at the date set in the first line of the template.
 
